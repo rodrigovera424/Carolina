@@ -33,9 +33,29 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">Nutricion </h1>
+                    <h1 class="masthead-heading mb-0">Nutricion Saludable: </h1>
                     <h2 class="masthead-subheading mb-0">Comer es una necesidad, hacerlo de forma inteligente es un arte.</h2>
-                    <button  type="button" class="btn btn-success">Recetas</button>
+
+
+   <!-- boton animado -->
+
+                    <div class="wrapper">
+                        <a class="button" href="#">Recetas!&#128513;</a>
+                    </div>
+                    
+                    <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+                    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                            </filter>
+                        </defs>
+                    </svg>
+
+
+
+
                 </div>
             </div>
             <div class="bg-circle-1 bg-circle"></div>
